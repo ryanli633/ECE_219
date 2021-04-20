@@ -49,11 +49,11 @@ categories=['comp.graphics', 'comp.os.ms-windows.misc',
 train_dataset = fetch_20newsgroups(subset = 'train',
                                    categories = categories,
                                    shuffle = True,
-                                   random_state = None)
+                                   random_state = 42)
 test_dataset = fetch_20newsgroups(subset = 'test',
                                  categories = categories,
                                  shuffle = True,
-                                 random_state = None)
+                                 random_state = 42)
 
 # stop words
 stop_words_skt = text.ENGLISH_STOP_WORDS

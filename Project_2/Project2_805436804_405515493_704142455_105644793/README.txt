@@ -1,9 +1,9 @@
 1. To execute the code for this project submission, open up a Jupyter Notebook 
    with Python 3 in the same directory as the files.
 2. Run the files in order (type "%run filename.py" in a cell)
-3. Repeat this process for each python file. The files can be run independently.
+3. Repeat this process for each python file. The files can be run independently (except Q16 files).
 
-for Q16_final.py:
+for Q16_final.py & Q16_full_sweep:
 -lines 35, 37 & 38 are commented out. 
 -change directory to your bbc data in lines 37 & 38 and uncomment
 -run

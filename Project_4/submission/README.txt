@@ -8,7 +8,11 @@ Osama Hassen: 105644793
 For the Suicides Dataset:
 1. The code is contained over 4 Jupyter Notebooks with names starting with "Proj4_Suicides..."
 2. Begin by opening Proj4_Suicides_LinPolyReg.ipynb
-   a)
+   a) Update the variable 'path' in the second cell and run through the cells
+   b) To execute the cell for Q7 (In[13]), you will need 'continent_country.csv' which is included in the submission
+   c) The last cell in this notebook saves the encoded, transformed, standardized version of the DataFrame as 'std_ft_df.csv' in the working directory. You will need this file for the other notebooks
+3. The other notebooks for this dataset can be run at any order once the csv is created in the same directory.
+
 
 For the Video Transcoding Time Dataset:
 1. The code for this dataset is contained in the Jupyter Notebook named:

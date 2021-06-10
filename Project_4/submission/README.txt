@@ -5,6 +5,11 @@ Shu-Yun Ku: 405515493
 Ryan Li: 704142455
 Osama Hassen: 105644793
 
+For the Suicides Dataset:
+1. The code is contained over 4 Jupyter Notebooks with names starting with "Proj4_Suicides..."
+2. Begin by opening Proj4_Suicides_LinPolyReg.ipynb
+   a)
+
 For the Video Transcoding Time Dataset:
 1. The code for this dataset is contained in the Jupyter Notebook named:
    Video_Transcoding.ipynb

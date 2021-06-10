@@ -28,12 +28,17 @@ For the Video Transcoding Time Dataset:
    scikit-learn: 0.24.2. This worked for all the models and questions up until
    we had to use BayesSearchCV in Questions 24-26. The latest version of
    scikit-optimize: 0.8.1 had an issue with the variable iid=True, which has 
-   been deprecated in scikit-learn.0.24.2. In order to get BayesSearchCV working
-   we had to revert to older versions of software. We ended up using:
+   been deprecated in scikit-learn.0.24.2. This issue has been acknowledged by
+   the maintainers of scikit-optimize and they supposedly merged a fix for this.
+   However, as of May 30, 2021, there were still people commenting on their 
+   Github page that they were still having problems with this. In order to get 
+   BayesSearchCV working we had to revert to older versions of software. 
+   We ended up using:
    scikit-learn: 0.23.2
    scikit-optimize: 0.8.0
    You can revert your version of scikit-learn using the commmand:
    python -m pip install scikit-learn==0.23.2
+   python -m pip install scikit-optimize==0.8.0
 
 If you run into any issues, it may be that you need to install certain packages
 (scikit-learn, nltk, numpy, pandas, etc.) in your python environment before 
